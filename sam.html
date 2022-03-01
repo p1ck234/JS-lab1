@@ -1,0 +1,29 @@
+<html>
+ <head>
+ <title>JS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <script language="javascript">
+ var name = prompt('Как вас зовут?',);
+ alert('Hello,' + name);
+
+ var text=window.prompt("Сколько вам лет?"); /*объ¤вление переменной text и присваивание ей 
+значени¤, введенного в диалоговое окно*/ 
+ switch (true){/* ќператор выбора*/ 
+ case (window.parseInt(text)>0&&parseInt(text)<=7):document.write("Ребенок"); 
+ break; 
+ case (parseInt(text)>=8)&&(parseInt(text)<=15): document.write("Школьник"); 
+ break; 
+ case (parseInt(text)>=16)&&(parseInt(text)<=25): document.write("Студент") 
+ break; 
+ default : document.write("Работаете или на пенсии") } 
+ 
+ 
+ if (document.bgColor === "green")
+ document.write('  фон зеленый') 
+ else document.write("  фон не зеленый");
+</script>
+
+ </head>
+ <body bgcolor=green>
+ </body>
+</html>
